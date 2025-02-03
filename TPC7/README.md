@@ -1,18 +1,29 @@
-# PL2025::A12345
+# Resolução do TPC7
 
-![Minha Foto](https://via.placeholder.com/150)  
-
-## Identificação
-- **Nome:** Pedro Miguel Araújo Gomes
+**Data:** x de Março de 2025  
+**Autor:**  
+![Foto do Autor](https://avatars.githubusercontent.com/u/140913282?v=4)  
+- **Nome:** Pedro Miguel Araújo Gomes 
 - **Número de Aluno:** A104540
-- **Curso:** Licenciatura em Engenharia Informática  
-- **Ano Letivo:** 2024/2025  
-
-## Contexto
-Este repositório foi criado no âmbito da UC de **Processamento de Linguagens (PL2025)**.  
-Aqui serão armazenados todos os TPC realizados ao longo do semestre, onde 'x' representa o número da semana correspondente ao TPx.  
-Cada pasta contém os ficheiros relevantes à realização do respetivo TPC, assim como um ficheiro `README.md` que descreve o trabalho realizado e os resultados obtidos.  
-O objetivo deste repositório é documentar o meu progresso na UC e servir como portfólio dos meus conhecimentos em programação Python ou outras ferramentas utilizadas.
 
 ---
 
+## Resumo
+Este trabalho prático (TPC7) consistiu na resolução de problemas relacionados com **programação em Python**, com foco nos seguintes tópicos:  
+...
+---
+
+## Resultados
+Abaixo estão os ficheiros resultantes deste TPC, assim como uma breve descrição do seu conteúdo:
+
+1. **`file1.py`**  
+   - ...
+
+2. **`file2.py`**  
+   - ...
+---
+
+### Como Executar o Código
+1. Certifica-te de que tens Python 3.12 (ou superior) instalado.
+2. ...  
+3. ...
