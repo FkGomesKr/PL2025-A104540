@@ -1,6 +1,6 @@
 # PL2025::A12345
 
-![Minha Foto]((https://github.com/FkGomesKr.png))  
+![Minha Foto](https://avatars.githubusercontent.com/u/140913282?v=4)  
 
 ## Identificação
 - **Nome:** Pedro Miguel Araújo Gomes
