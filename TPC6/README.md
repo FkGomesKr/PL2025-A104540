@@ -1,7 +1,7 @@
 # Resolução do TPC6
 
-**Data:** x de Março de 2025  
-**Autor:**  
+### **Data:** x de Março de 2025  
+### **Autor:**  
 ![Foto do Autor](https://avatars.githubusercontent.com/u/140913282?v=4)  
 - **Nome:** Pedro Miguel Araújo Gomes 
 - **Número de Aluno:** A104540
@@ -11,6 +11,7 @@
 ## Resumo
 Este trabalho prático (TPC6) consistiu na resolução de problemas relacionados com **programação em Python**, com foco nos seguintes tópicos:  
 ...
+
 ---
 
 ## Resultados
