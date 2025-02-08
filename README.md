@@ -1,4 +1,4 @@
-# PL2025::A12345
+# PL2025::A104540
 
 ![Minha Foto](https://avatars.githubusercontent.com/u/140913282?v=4)  
 
@@ -10,7 +10,7 @@
 
 ## Contexto
 Este repositório foi criado no âmbito da UC de **Processamento de Linguagens (PL2025)**.  
-Aqui serão armazenados todos os TPC realizados ao longo do semestre, onde 'x' representa o número da semana correspondente ao TPx.  
+Aqui serão armazenados todos os TPC realizados ao longo do semestre, onde 'x' representa o número da semana correspondente ao TPCx.  
 Cada pasta contém os ficheiros relevantes à realização do respetivo TPC, assim como um ficheiro `README.md` que descreve o trabalho realizado e os resultados obtidos.  
 O objetivo deste repositório é documentar o meu progresso na UC e servir como portfólio dos meus conhecimentos em programação Python ou outras ferramentas utilizadas.
 

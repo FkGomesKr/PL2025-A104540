@@ -26,5 +26,6 @@ Abaixo estão os ficheiros resultantes deste TPC, assim como uma breve descriç�
 
 ### Como Executar o Código
 1. Certifica-te de que tens Python 3.12 (ou superior) instalado.
-2. ...  
-3. ...
+2. 
+```bash
+echo "python somadorOnOff.py"  
