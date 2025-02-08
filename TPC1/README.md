@@ -15,14 +15,16 @@ Este trabalho prático (TPC1) consistiu na resolução de problemas relacionados
 ---
 
 ## Resultados
-Abaixo estão os ficheiros resultantes deste TPC, assim como uma breve descrição do seu conteúdo:
+Como resultado deste programa **`somadorOnOff.py`**, obtivemos, como expectável este resultado para um dado input: 
 
-1. **`file1.py`**  
-   - ...
-
-2. **`file2.py`**  
-   - ...
----
+- Input: **"On123;Off456On789= rosca20= 1d1 10=off50ds0="**
+- Resultado:
+```bash
+912
+932
+944
+944
+```
 
 ### Como Executar o Código
 1. Certifica-te de que tens Python 3.12 (ou superior) instalado.
