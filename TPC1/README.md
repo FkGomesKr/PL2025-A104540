@@ -17,8 +17,8 @@ Este trabalho prático (TPC1) consistiu na resolução de problemas relacionados
 ## Resultados
 Como resultado deste programa **`somadorOnOff.py`**, obtivemos, como expectável este resultado para um dado input: 
 
-- Input: 
-```bash
+- Input:
+```
 Digite o texto no qual vamos aplicar o Somador On-Off:
 On123;Off456On789= rosca20= 1d1 10=off50ds0=
 ```
