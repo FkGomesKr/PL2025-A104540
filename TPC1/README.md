@@ -9,13 +9,16 @@
 ---
 
 ## Resumo
-Este trabalho prático (TPC1) consistiu na resolução de problemas relacionados com **programação em Python**, com foco nos seguintes tópicos:  
-...
+Este trabalho consistiu em criar um programa em Python capaz de processear um input textual e de realizar a soma de todos os números encontrados nesse mesmo input, tendo em conta segmentos textuais específicios que funcionam como regras para o comportamento deste leitor de input:
+
+- *On* : Sinaliza a obrigação de somar (lido com qualquer combinação de maiúsculas ou minúsculas).
+- *Off* : Sinaliza fim da obrigação de somar (lido com qualquer combinação de maiúsculas ou minúsculas).
+- *=* : Sinaliza a exibição do resultado atual da soma (print).
 
 ---
 
 ## Resultados
-Como resultado deste programa **`somadorOnOff.py`**, obtivemos, como expectável este resultado para um dado input: 
+Como resultado do programa **`somadorOnOff.py`**, como expectável, obtivemos este resultado para um dado input: 
 
 - Input:
 ```
