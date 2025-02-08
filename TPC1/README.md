@@ -26,6 +26,8 @@ Abaixo estão os ficheiros resultantes deste TPC, assim como uma breve descriç�
 
 ### Como Executar o Código
 1. Certifica-te de que tens Python 3.12 (ou superior) instalado.
-2. 
+2. Executa o programa
 ```bash
-echo "python somadorOnOff.py"  
+python somadorOnOff.py
+```
+3. Insere um input textual, por exemplo, "On123;Off456On789= rosca20= 1d1 10=off50ds0="
