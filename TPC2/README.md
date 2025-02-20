@@ -22,7 +22,7 @@ desse período.
 Todos o conteúdo resultante deste TPC foi organizado e guardado no ficheiro **`resultados.json`** gerado posterior à execução do programa. Para além disso, os resultados foram ainda "imprimidos" no terminal:
 
 1. **`Lista ordenada alfabeticamente dos compositores musicais`**  
-```bash
+```
 Foi extraída a informação de 174 linhas 'csv'.
 
 Lista de Compositores Ordenada:
@@ -52,7 +52,7 @@ Lista de Compositores Ordenada:
 24. Duarte Lôbo
 25. Durante, Francesco
 26. Elisabeth Sophie of Mecklenburg
-27. Emanuele d\'Astorga
+27. Emanuele d'Astorga
 28. Estevao de Brito
 29. Fernandes, Gaspar
 30. Filipe De Magalhaes
@@ -139,7 +139,7 @@ Lista de Compositores Ordenada:
 ```
 
 2. **`Distribuição das obras por período`**
-```bash
+```
 Distribuição das Obras por Período:
 Barroco: 26 obras
 Clássico: 15 obras
@@ -151,7 +151,7 @@ Contemporâneo: 7 obras
 ```
 
 3. **`Dicionário Período -> Lista alfabética dos títulos das Obras`**
-```bash
+```
 Títulos das Obras por Período (Ordenados):
 
 Barroco:
