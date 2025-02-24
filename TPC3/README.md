@@ -1,6 +1,6 @@
 # Resolução do TPC3
 
-### **Data:** x de Fevereiro de 2025  
+### **Data:** 24 de Fevereiro de 2025  
 ###  **Autor:**  
 ![Foto do Autor](https://avatars.githubusercontent.com/u/140913282?v=4)  
 - **Nome:** Pedro Miguel Araújo Gomes 
