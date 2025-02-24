@@ -38,7 +38,7 @@ Veja mais em <a href="https://www.google.com">Google</a>.
 Arquivo HTML gerado: .\example1.html
 ```
 
-3. **`example2.html`**  
+2. **`example2.html`**  
 ```
 <h1>Exemplo 2</h1>
 <h3>Subtítulo 2</h3>
