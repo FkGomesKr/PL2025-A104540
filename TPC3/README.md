@@ -60,3 +60,4 @@ Arquivo HTML gerado: .\example2.html
 ```
 python mdHtmlConverter.py example1.md
 ```
+Podes visualizar os resultados no terminal ou aceder, para este exemplo, ao ficheiro **exemplo1.html** que foi gerado.
