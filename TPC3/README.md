@@ -10,9 +10,12 @@
 
 ## Resumo
 Este trabalho prático é um pequeno conversor de **MarkDown** para **HTML** feito em **Python**. Este conversor está aplicado a alguns elementos básicos:
-- Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
-   In: # Exemplo
-   Out: <h1>Exemplo</h1>
+- Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto";
+- Bold: pedaços de texto entre "**";
+- Itálico: pedaços de texto entre "*";
+- Lista numerada;
+- Link: [texto](endereço URL);
+- Imagem: ![texto alternativo](path para a imagem).
 
 ---
 
