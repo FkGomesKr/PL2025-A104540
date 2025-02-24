@@ -9,8 +9,10 @@
 ---
 
 ## Resumo
-Este trabalho prático (TPC3) consistiu na resolução de problemas relacionados com **programação em Python**, com foco nos seguintes tópicos:  
-...
+Este trabalho prático é um pequeno conversor de **MarkDown** para **HTML** feito em **Python**. Este conversor está aplicado a alguns elementos básicos:
+- Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
+   In: # Exemplo
+   Out: <h1>Exemplo</h1>
 
 ---
 
