@@ -20,16 +20,43 @@ Este trabalho prático é um pequeno conversor de **MarkDown** para **HTML** fei
 ---
 
 ## Resultados
-Abaixo estão os ficheiros resultantes deste TPC, assim como uma breve descrição do seu conteúdo:
+Abaixo seguem os ficheiros resultantes deste TPC, foram gerados tanto em ficheiro **HTML** como em **"raw code"** *printed* no terminal. Para reproduzir estes resultados foram criados, necessariamente, 2 ficheiros **MarkDown** a ser convertidos:
 
-1. **`file1.py`**  
-   - ...
+1. **`example1.html`**
+```
+<h1>Exemplo 1</h1>
+<h2>Subtítulo 1</h2>
+<h3>Este é um <b>exemplo</b> de <i>Markdown</i>.</h3>
 
-2. **`file2.py`**  
-   - ...
+<ol>
+<li>Item 1</li><li>Item 2</li><li>Item 3</li>
+</ol>
+
+Veja mais em <a href="https://www.google.com">Google</a>.
+
+
+Arquivo HTML gerado: .\example1.html
+```
+
+3. **`example2.html`**  
+```
+<h1>Exemplo 2</h1>
+<h3>Subtítulo 2</h3>
+Aqui está uma imagem:
+
+<img src="cat.jpg" alt="Um gato"/>
+
+Texto <b>negrito</b> e <i>itálico</i> misturados.
+
+
+Arquivo HTML gerado: .\example2.html
+```
+
 ---
 
 ### Como Executar o Código
 1. Certifica-te de que tens Python 3.12 (ou superior) instalado.
-2. ...  
-3. ...
+2. Executa o programa e dá algum ficheiro **MarkDown** como argumento, por exemplo:
+```
+python mdHtmlConverter.py example1.md
+```
