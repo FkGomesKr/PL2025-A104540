@@ -17,14 +17,14 @@ Patterns_types = [
     (r"\s+", None),  # ignorar espaços em branco/tabs/\n
 ]
 
-TOKEN_REGEX = [(re.compile(pattern), type) for pattern, type in Patterns_types]
+regex_types = [(re.compile(pattern), type) for pattern, type in Patterns_types]
 
 def lexer(query):
     tokens = []
     index = 0
     while index < len(query):
         match = None
-        for anyPattern, type in TOKEN_REGEX:
+        for anyPattern, type in regex_types:
             match = anyPattern.match(query, index)
             if match:
                 if type:  # ignorar None matches
