@@ -1,0 +1,26 @@
+[
+    {
+        "cod": "A23",
+        "nome": "\u00c1gua 0.5L",
+        "quant": 7,
+        "preco": 0.7
+    },
+    {
+        "cod": "B45",
+        "nome": "Sumo Anan\u00e1s 33cl",
+        "quant": 4,
+        "preco": 1.2
+    },
+    {
+        "cod": "C67",
+        "nome": "Batatas Fritas",
+        "quant": 8,
+        "preco": 1.5
+    },
+    {
+        "cod": "D89",
+        "nome": "Chocolate",
+        "quant": 3,
+        "preco": 1.8
+    }
+]
