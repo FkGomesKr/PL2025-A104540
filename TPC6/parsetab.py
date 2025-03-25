@@ -6,9 +6,9 @@ _tabversion = '3.10'
 
 _lr_method = 'LALR'
 
-_lr_signature = 'ADD MULT NUM SUB\nS : Exp\n\nExp : Exp ADD Termo\n\nExp : Exp SUB Termo\n\nExp : Termo\n\nTermo : Termo MULT Factor\n\nTermo : Factor\n\nFactor : NUM\n'
+_lr_signature = "ADD MULT NUM SUB\nS : Exp\n\nExp : Exp ADD Termo\n\nExp : Exp SUB Termo\n\nExp : Termo\n\nTermo : Termo MULT Factor\n\nTermo : Factor\n\nFactor : NUM\n\nFactor : '(' Exp ')'\n"
     
-_lr_action_items = {'NUM':([0,6,7,8,],[5,5,5,5,]),'$end':([1,2,3,4,5,9,10,11,],[0,-1,-4,-6,-7,-2,-3,-5,]),'ADD':([2,3,4,5,9,10,11,],[6,-4,-6,-7,-2,-3,-5,]),'SUB':([2,3,4,5,9,10,11,],[7,-4,-6,-7,-2,-3,-5,]),'MULT':([3,4,5,9,10,11,],[8,-6,-7,8,8,-5,]),}
+_lr_action_items = {'NUM':([0,6,7,8,9,],[5,5,5,5,5,]),'(':([0,6,7,8,9,],[6,6,6,6,6,]),'$end':([1,2,3,4,5,11,12,13,14,],[0,-1,-4,-6,-7,-2,-3,-5,-8,]),'ADD':([2,3,4,5,10,11,12,13,14,],[7,-4,-6,-7,7,-2,-3,-5,-8,]),'SUB':([2,3,4,5,10,11,12,13,14,],[8,-4,-6,-7,8,-2,-3,-5,-8,]),')':([3,4,5,10,11,12,13,14,],[-4,-6,-7,14,-2,-3,-5,-8,]),'MULT':([3,4,5,11,12,13,14,],[9,-6,-7,9,9,-5,-8,]),}
 
 _lr_action = {}
 for _k, _v in _lr_action_items.items():
@@ -17,7 +17,7 @@ for _k, _v in _lr_action_items.items():
       _lr_action[_x][_k] = _y
 del _lr_action_items
 
-_lr_goto_items = {'S':([0,],[1,]),'Exp':([0,],[2,]),'Termo':([0,6,7,],[3,9,10,]),'Factor':([0,6,7,8,],[4,4,4,11,]),}
+_lr_goto_items = {'S':([0,],[1,]),'Exp':([0,6,],[2,10,]),'Termo':([0,6,7,8,],[3,3,11,12,]),'Factor':([0,6,7,8,9,],[4,4,4,4,13,]),}
 
 _lr_goto = {}
 for _k, _v in _lr_goto_items.items():
@@ -34,4 +34,5 @@ _lr_productions = [
   ('Termo -> Termo MULT Factor','Termo',3,'p_term_mult','exp_sin.py',33),
   ('Termo -> Factor','Termo',1,'p_term_factor','exp_sin.py',40),
   ('Factor -> NUM','Factor',1,'p_factor_num','exp_sin.py',47),
+  ('Factor -> ( Exp )','Factor',3,'p_factor_group','exp_sin.py',54),
 ]

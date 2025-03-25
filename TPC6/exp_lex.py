@@ -1,5 +1,6 @@
 import ply.lex as lex
 
+literals = ['(', ')']
 tokens = ['NUM', 'ADD', 'SUB', 'MULT']
 
 t_ADD = r'\+'

@@ -1,5 +1,5 @@
 import ply.yacc as yacc
-from exp_lex import tokens
+from exp_lex import tokens, literals
 
 def p_global(p):
     """
@@ -49,6 +49,12 @@ def p_factor_num(p):
     p[0] = int(p[1])
     #p[0] = p[1]
 
+def p_factor_group(p):
+    """
+    Factor : '(' Exp ')'
+    """
+    p[0] = p[2]
+
 def p_error(p):
     print('Erro sintático: ', p)
     parser.success = False
@@ -62,4 +68,4 @@ for linha in sys.stdin:
     if parser.success:
         print("Frase válida: ", linha)
     else:
-        print("Frase inválida... Corrija e tente novamente!")
+        print("Frase inválida... Corrija e tente novamente!\n")
